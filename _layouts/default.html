@@ -4,28 +4,117 @@ title: 'This is my Site Title'
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Site Title {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='alternate' type='application/rss+xml' title='RSS' href='SITEURLGOESHERE/blog.rss' />
-  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <title>Walkscope : LocalData</title>
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <script src="//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/underscorejs/1.7.0/underscore-min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      var $content = $('#content');
+      var resize = function() {
+        var headerHeight = $('#header').height();
+        var viewportHeight = $(window).height();
+        var newHeight = viewportHeight - headerHeight;
+        $('iframe').height(newHeight);
+        $content.height(newHeight);
+      };
+
+      var aboutTemplate = _.template($('#t-about').html());
+      var embedTemplate = _.template($('#t-embed').html());
+
+      var $embed = $(embedTemplate());
+      var $about = $(aboutTemplate());
+      $content.empty();
+      $content.append($embed);
+      $( window ).resize(resize);
+      resize();
+
+      $('#nav li a').click(function(event) {
+        // TODO
+        // In the future, we might just want to hide/show several iframes
+        // That way the content also gets preloaded.
+        event.preventDefault();
+
+        var $iframe = $('#iframe');
+
+        $content.removeClass('full');
+
+        switch (this.className) {
+          case "overview":
+            $embed.detach();
+            $content.empty();
+            $content.append($embed);
+            $iframe.attr('src', 'https://ptx-dev.herokuapp.com/#multi/surveys/walkscope');
+            resize();
+            break;
+
+          case "details":
+            $embed.detach();
+            $content.empty();
+            $content.addClass('full');
+            $content.append($embed);
+            $iframe.attr('src', 'https://ptx-dev.herokuapp.com/#embed/surveys/walkscope');
+            resize();
+            break;
+
+          case "collect":
+            window.location = 'http://ptx-dev.herokuapp.com/mobile/#walkscope';
+            break;
+
+          case "about":
+            $content.empty();
+            $content.append($about);
+            resize();
+            break;
+        }
+
+
+        $('#nav li').removeClass('selected');
+        $(this).parent().addClass('selected');
+      });
+    })
+  </script>
 </head>
 <body>
-  <div class='container'>
-    <div class='col12 clearfix'>
-      <div class='header col6 margin3 pad4h'>
-        <div class='clearfix col12'>
-          <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
-          </div>
-          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
-        </div>
-      </div>
-    </div>
-    {{content}}
+  <div id="header">
+    <h1>
+      <img src="img/walkscope.png" height="75" alt="">
+    </h1>
+    <ul id="nav">
+      <li class="selected"><a href="#" class="overview">Overview</a></li>
+      <li><a href="#details" class="details">Details</a></li>
+      <li><a href="#collect" class="collect">Add Data</a></li>
+      <li><a href="#" class="about">About</a></li>
+    </ul>
   </div>
-  <script src='{{site.baseurl}}/site.js'></script>
+
+    {{content}}
+
+  <div class="content" id="content">
+  </div>
+
+  <script type="text/template" id="t-embed">
+    <h2>WALKScope Survey</h2>
+    <iframe src="https://ptx-dev.herokuapp.com/#multi/surveys/walkscope" width="100%" id="iframe"></iframe>
+  </script>
+  <script type="text/template" id="t-about">
+    <div id="about">
+      <h3>What is this project about?</h3>
+      <p>At WalkDenver we believe that "people are pedestrians by design." Yet
+      street design is often focused solely on cars, resulting in streets that
+      are unsafe and unpleasant for people on foot.</p>
+
+      <p>WALKscope allows Denver residents and visitors to collect data related
+      to sidewalks, intersections, and pedestrian counts. This information will
+      help create an inventory of pedestrian infrastructure in Denver, identify
+      gaps, and build the case for improvements. WalkDenver and PlaceMatters
+      collaborated to develop WALKscope with grant funding from
+      <a href="http://www.milehighconnects.org/">Mile High Connects.</a></p>
+      <p>
+        <img src="img/walkscope-alt.png" height="60" alt="WALKscope">
+        <img src="img/placematters.png" height="60" alt="PlaceMatters">
+      </p>
+    </div>
+  </script>
 </body>
+</html>
