@@ -3,6 +3,7 @@ layout: default
 section: blog
 ---
 
+<!--
 <div class='listing col6 pad4h margin3'>
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
@@ -14,11 +15,10 @@ section: blog
     <a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}} <span class='date'>&#126; {{item.date | date:"%b %d"}}</span></a>
   {% endfor %}
 </div>
+-->
 
-<div class="content" id="content">
-    <h2>WALKScope Survey</h2>
-    <iframe src="https://ptx-dev.herokuapp.com/#multi/surveys/walkscope" width="100%" id="iframe"></iframe>
-</div>
+<h2>WALKScope Survey</h2>
+<iframe src="https://ptx-dev.herokuapp.com/#multi/surveys/walkscope" width="100%" id="iframe"></iframe>
 
 <!--
 {% include rss-link.html %}

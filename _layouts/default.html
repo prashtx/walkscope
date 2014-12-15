@@ -22,7 +22,7 @@ title: 'This is my Site Title'
 
       // var aboutTemplate = _.template($('#t-about').html());
       // var embedTemplate = _.template($('#t-embed').html());
-//
+
       // var $embed = $(embedTemplate());
       // var $about = $(aboutTemplate());
       // $content.empty();
@@ -30,44 +30,45 @@ title: 'This is my Site Title'
       $( window ).resize(resize);
       resize();
 
-      $('#nav li a').click(function(event) {
-        // TODO
-        // In the future, we might just want to hide/show several iframes
-        // That way the content also gets preloaded.
-        event.preventDefault();
 
-        var $iframe = $('#iframe');
-
-        $content.removeClass('full');
-
-        switch (this.className) {
-          case "overview":
-            $embed.detach();
-            $content.empty();
-            $content.append($embed);
-            $iframe.attr('src', 'https://ptx-dev.herokuapp.com/#multi/surveys/walkscope');
-            resize();
-            break;
-
-          case "details":
-            $embed.detach();
-            $content.empty();
-            $content.addClass('full');
-            $content.append($embed);
-            $iframe.attr('src', 'https://ptx-dev.herokuapp.com/#embed/surveys/walkscope');
-            resize();
-            break;
-
-          case "collect":
-            window.location = 'http://ptx-dev.herokuapp.com/mobile/#walkscope';
-            break;
-
-          case "about":
-            $content.empty();
-            $content.append($about);
-            resize();
-            break;
-        }
+      //$('#nav li a').click(function(event) {
+      //  // TODO
+      //  // In the future, we might just want to hide/show several iframes
+      //  // That way the content also gets preloaded.
+      //  event.preventDefault();
+//
+      //  var $iframe = $('#iframe');
+//
+      //  $content.removeClass('full');
+//
+      //  switch (this.className) {
+      //    case "overview":
+      //      $embed.detach();
+      //      $content.empty();
+      //      $content.append($embed);
+      //      $iframe.attr('src', 'https://ptx-dev.herokuapp.com/#multi/surveys/walkscope');
+      //      resize();
+      //      break;
+//
+      //    case "details":
+      //      $embed.detach();
+      //      $content.empty();
+      //      $content.addClass('full');
+      //      $content.append($embed);
+      //      $iframe.attr('src', 'https://ptx-dev.herokuapp.com/#embed/surveys/walkscope');
+      //      resize();
+      //      break;
+//
+      //    case "collect":
+      //      window.location = 'http://ptx-dev.herokuapp.com/mobile/#walkscope';
+      //      break;
+//
+      //    case "about":
+      //      $content.empty();
+      //      $content.append($about);
+      //      resize();
+      //      break;
+      //  }
 
 
         $('#nav li').removeClass('selected');
@@ -82,12 +83,13 @@ title: 'This is my Site Title'
       <img src="{{site.baseurl}}/img/walkscope.png" height="75" alt="">
     </h1>
     <ul id="nav">
-      <li><a href="#" class="overview">Overview</a></li>
-      <li><a href="#details" class="details">Details</a></li>
+      <li><a href="{{site.baseurl}}/" class="overview">Overview</a></li>
+      <li><a href="{{site.baseurl}}/details" class="details">Details</a></li>
       <li><a href="http://ptx-dev.herokuapp.com/mobile/#walkscope" class="collect">Add Data</a></li>
       <li><a href="{{site.baseurl}}/about" class="about">About</a></li>
     </ul>
   </div>
+
 
   {{content}}
 
