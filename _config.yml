@@ -1,9 +1,8 @@
-baseurl: /starter
 permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
-  siteurl: 'http://prose.github.io/starter/'
+  siteurl: 'http://hampelm.github.io/walkscope/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
   metadata:
