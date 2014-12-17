@@ -12,7 +12,7 @@ title: 'WALKscope'
     $(function() {
       var $content = $('#content');
       var resize = function() {
-        var headerHeight = $('#header').height() + $('h2').height();
+        var headerHeight = $('#header').height() + $('#page-title').height();
         var viewportHeight = $(window).height();
         var newHeight = viewportHeight - headerHeight;
         console.log("Setting height", headerHeight, viewportHeight, newHeight, $('iframe'));
