@@ -40,6 +40,10 @@ Use your best guess for sidewalk width. Sometimes in Denver, we see narrow sidew
 
 ![rollover.png](/media/rollover.png)
 
+Attached sidewalks are directly adjacent to the street, like this: 
+
+![Attached2.png](/media/Attached2.png)
+
 
 _Are there obstructions in the sidewalk?_
 
