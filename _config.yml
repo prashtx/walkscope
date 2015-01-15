@@ -5,7 +5,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://hampelm.github.io/walkscope/'
   relativeLinks: 'http://hampelm.github.io/walkscope/links.jsonp'
-  media: 'media'
+  media: '/walkscope/media'
   metadata:
     _posts:
       - name: "category"
