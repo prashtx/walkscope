@@ -16,11 +16,15 @@ permalink: tips/
 
 **Deleting Points**
 
-If you make a mistake and need to delete a point, just send us an email at: help@walkscope.org
+If you make a mistake or need to delete a point, just add a comment to that point describing the mistake.
 
 **Geolocation**
 
-The locate me button  allows you to automatically zoom to your current location. Make sure geolocation is enabled for your device AND for your browser. 
+The locate me button allows you to automatically zoom to your current location. Make sure geolocation is enabled for your device _and_ for your browser. 
+
+**Adding pictures**
+
+If you want to add a picture to a point, it’s a good idea to do so first, before entering any other data. That way if something goes wrong and you need to restart WALKscope, you won’t lose any of the data you entered. WALKscope works best if you don’t have any other applications open or running on your smart phone.
 
 **Pedestrian Count**
 
@@ -32,7 +36,10 @@ If there's significant snow or ice on the ground, go ahead and choose snowing.
 
 _What type of sidewalk?_
 
-Use your best guess for sidewalk width. Sometimes in Denver, we see narrow sidewalks with curbs that are designed for cars to drive onto for parking. For these, choose "Less than 3 feet rollover curb". Detached sidewalks have a strip of grass or other space between the sidewalk and the road, like this: 
+Use your best guess for sidewalk width. Sometimes in Denver, we see narrow sidewalks with curbs that are designed for cars to drive onto for parking. For these, choose "Less than 3 feet rollover curb.”
+
+![rollover.png](/media/rollover.png)
+
 
 _Are there obstructions in the sidewalk?_
 
@@ -52,5 +59,3 @@ _How many lanes are there to cross?_
 
 Count the number of lanes on the street with the most lanes. For instance, if one street had 4 lanes and the other had 7, the number of lanes recorded would be 7. You should also count turn lanes as lanes.
 Are there median islands or bulb-outs?
-
-
