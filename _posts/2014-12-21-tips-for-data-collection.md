@@ -8,7 +8,7 @@ permalink: tips/
 
 ### Ready to get started?
 
-<a class="button" href="http://ptx-dev.herokuapp.com/mobile/#walkscope" style="color:#fff; background: #58aeff; padding: 1em; display:inline-block; font-size: 18px">Let's add some data</a>
+<a class="button" href="http://app.localdata.com/mobile/#walkscope" style="color:#fff; background: #58aeff; padding: 1em; display:inline-block; font-size: 18px">Let's add some data</a>
 
 ### Not sure how to answer? Take a look at the tips below!
 
@@ -85,4 +85,3 @@ _Are there median islands or bulb-outs?_
 ### Ready to get started?
 
 <a class="button" href="http://ptx-dev.herokuapp.com/mobile/#walkscope" style="color:#fff; background: #58aeff; padding: 1em; display:inline-block; font-size: 18px">Let's add some data</a>
-
