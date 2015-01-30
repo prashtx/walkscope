@@ -38,29 +38,29 @@ _What type of sidewalk?_
 
 Use your best guess for sidewalk width. Sometimes in Denver, we see narrow sidewalks with curbs that are designed for cars to drive onto for parking. For these, choose "Less than 3 feet rollover curb."
 
-![Attached.png](media/rollover.png)
+![Attached.png]({{ site.baseurl }}/media/rollover.png)
 
 Attached sidewalks are directly adjacent to the street, like this:
 
-![Attached.png](media/Attached.png)
-![Attached2.png](media/Attached2.png)
+![Attached.png]({{ site.baseurl }}/media/Attached.png)
+![Attached2.png]({{ site.baseurl }}/media/Attached2.png)
 
 Detached sidewalks have a strip of grass or other space between the sidewalk and the road, like this:
 
-![detached1.png](media/detached1.png)
-![detatched2.png](media/detatched2.png)
+![detached1.png]({{ site.baseurl }}/media/detached1.png)
+![detatched2.png]({{ site.baseurl }}/media/detatched2.png)
 
 _Are there obstructions in the sidewalk?_
 
 Anything that would prevent pedestrians from easily using the sidewalk is an obstruction. Examples might include trash or debris, overgrown plants, or utility poles. While you're at it, go ahead and tell us what the obstruction is in the Description!
 
-![obstructions.png](media/obstructions.png)
+![obstructions.png]({{ site.baseurl }}/media/obstructions.png)
 
 _Is the sidewalk significantly cracked or uneven?_
 
 A crack or uneven sidewalk is significant if it makes it unsafe or difficult for pedestrians. Ignore minor cracks or other abnormalities that don't affect sidewalk usage.
 
-![cracked.png](media/cracked.png)
+![cracked.png]({{ site.baseurl }}/media/cracked.png)
 
 _Do you feel unsafe? (lighting, traffic, or other)_
 
@@ -72,15 +72,15 @@ _How many lanes are there to cross?_
 
 Count the number of lanes on the street with the most lanes. For instance, if one street had 4 lanes and the other had 7, the number of lanes recorded would be 7. You should also count turn lanes as lanes.
 
-![lanes.png](media/lanes.png)
+![lanes.png]({{ site.baseurl }}/media/lanes.png)
 
 _Are there median islands or bulb-outs?_
 
-![bulb1.png](media/bulb1.png)
-![bulb2.png](media/bulb2.png)
+![bulb1.png]({{ site.baseurl }}/media/bulb1.png)
+![bulb2.png]({{ site.baseurl }}/media/bulb2.png)
 
-![median1.png](media/median1.png)
-![median2.png](media/median2.png)
+![median1.png]({{ site.baseurl }}/media/median1.png)
+![median2.png]({{ site.baseurl }}/media/median2.png)
 
 ### Ready to get started?
 
