@@ -12,11 +12,12 @@ permalink: tips/
 
 ### Not sure what to do? Take a look at the tips below!
 
-**Before you start**
+
+## **Before you start**
 
 If you are recording data in the field with a device such as a smart phone or tablet, make sure that your device is fully charged and that location services are enabled for both your device AND your browser.  WALKscope will work best if you close other applications and have plenty of free memory on your device.  The WALKscope web page may load slowly if you are in an area with poor reception.
 
-**The basics**
+## **The basics**
 
 1.	Move the map to the area where you would like to collect data.
 2.	Select a sidewalk (line) or intersection (circle).  The item you select will turn yellow.
@@ -25,7 +26,7 @@ If you are recording data in the field with a device such as a smart phone or ta
 5.	Once you submit your answers, the sidewalk (line) or intersection (circle) will turn green.  
 6.	Select another sidewalk or intersection to record more data.
 
-**Moving the map**
+## **Moving the map**
 
 There are a few different ways you can move the map:
 
@@ -37,7 +38,7 @@ There are a few different ways you can move the map:
 
 When you first open the map or move to new location, it may take a moment before the sidewalks (lines) and intersections (circles) appear on the map.
 
-**Sidewalk Quality**
+## **Sidewalk Quality**
 
 _What type of sidewalk?_
 
@@ -68,7 +69,7 @@ Shade trees, landscaping, benches, public art and other amenities make a nice, i
 ![AmenitiesWeb.png](/_posts/AmenitiesWeb.png)
 
 
-**Intersection Quality**
+## **Intersection Quality**
 
 _Are there painted crosswalks?_
 
@@ -93,7 +94,7 @@ Bulb-outs are an extension of the curb that shorten crossing distances.  Median 
 _Are there problems with driver behavior?_
 Drivers that speed, run red lights or stop signs, or fail to yield to pedestrians create hazardous conditions for walking.  If you are familiar with the area, answer this question based on your general experience.  If you are not familiar with the area, answer this question based on your current observations.
 
-**Number of Pedestrians**
+## **Number of Pedestrians**
 
 _How many pedestrians did you count at this location?_
 
@@ -107,7 +108,7 @@ _How long did you observe this street segment?_
 
 The longer you observe an area, the more useful the data is! 
 
-**Still have questions?**
+## **Still have questions?**
 
 For more information contact [Jill Locantore](mailto:jill.locantore@walkdenver.org) at WalkDenver.
 
