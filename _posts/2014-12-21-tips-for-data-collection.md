@@ -17,6 +17,7 @@ permalink: tips/
 If you are recording data in the field with a device such as a smart phone or tablet, make sure that your device is fully charged and that location services are enabled for both your device AND your browser.  WALKscope will work best if you close other applications and have plenty of free memory on your device.  The WALKscope web page may load slowly if you are in an area with poor reception.
 
 **The basics**
+
 1.	Move the map to the area where you would like to collect data.
 2.	Select a sidewalk (line) or intersection (circle).  The item you select will turn yellow.
 3.	Select the data you would like to record: sidewalk quality, intersection quality, or pedestrian count.
@@ -27,6 +28,7 @@ If you are recording data in the field with a device such as a smart phone or ta
 **Moving the map**
 
 There are a few different ways you can move the map:
+
 1.	Click on and drag the map.  You can also click on the plus (+) and minus (-) signs to zoom the map in and out.
 2.	Click on the menu button in the upper left corner (a circle with three horizontal lines).  Then you can:
 	-	Click on the blue “Locate me” button to move the map to your current location.  Location services must be enabled on both your device AND your browser for this to work.
