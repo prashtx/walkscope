@@ -32,7 +32,7 @@ There are a few different ways you can move the map:
 
 	1.	Click on and drag the map.  You can also click on the plus (+) and minus (-) signs to zoom the map in and out.
 	2.	Click on the menu button in the upper left corner (a circle with three horizontal lines).  Then you can:
-		-	Click on the blue “Locate me” button to move the map to your current location.  Location services must be enabled on both your device AND your browser for this to work.
+		-	Click on the blue “Locate me” button to move the map to your current location.  
 		-	Alternatively, enter an address in the orange box and click on the blue “Find address” button.
 		-	Click on the map again to close the menu.
 
