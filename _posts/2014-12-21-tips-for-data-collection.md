@@ -21,7 +21,7 @@ If you are recording data in the field with a device such as a smart phone or ta
 
 	1.	Move the map to the area where you would like to collect data.
 	2.	Select a sidewalk (line) or intersection (circle).  The item you select will turn yellow.
-	3.	Select the data you would like to record: sidewalk quality, intersection quality, or pedestrian count.
+	3.	Select the data you would like to record: sidewalk quality, intersection quality, or number of pedestrians.
 	4.	Answer all of the questions as best you can.  It helps if you add a picture too!
 	5.	Once you submit your answers, the sidewalk (line) or intersection (circle) will turn green.  
 	6.	Select another sidewalk or intersection to record more data.
