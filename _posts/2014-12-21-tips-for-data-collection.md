@@ -117,4 +117,4 @@ For more information contact [Jill Locantore](mailto:jill.locantore@walkdenver.o
 
 ### Ready to get started?
 
-<a class="button" href="http://ptx-dev.herokuapp.com/mobile/#walkscope" style="color:#fff; background: #58aeff; padding: 1em; display:inline-block; font-size: 18px">Let's add some data</a>
+<a class="button" href="http://app.localdata.com/mobile/#walkscope" style="color:#fff; background: #58aeff; padding: 1em; display:inline-block; font-size: 18px">Let's add some data</a>
