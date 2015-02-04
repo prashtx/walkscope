@@ -85,8 +85,6 @@ Count the number of lanes on the street with the most lanes. For instance, if on
 
 Some, but not all traffic lights also have signals specifically for pedestrians.  Some intersections may have pedestrian signals, but not traditional traffic lights.  Intersections with stop signs typically do not have traffic lights or pedestrian signals.
 
-![PedestrianSignalWeb.png](/_posts/PedestrianSignalWeb.png)
-
 **_Are there pedestrian amenities?_**
 
 Bulb-outs are an extension of the curb that shorten crossing distances.  Median islands provide a safe place for pedestrians to wait part way across the street.  Accessible curb ramps make it easy for people in wheelchairs to cross the street.
