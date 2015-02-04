@@ -44,19 +44,19 @@ When you first open the map or move to new location, it may take a moment before
 
 Use your best guess for sidewalk width.  Attached sidewalks are directly adjacent to the street, whereas detached sidewalks have a strip of grass or other space between the sidewalk and the street. Some neighborhoods in Denver have narrow sidewalks with curbs designed to be easy to drive over.  For these, choose “less than 3 feet rollover curb.”
 
-![AttachedSidewalkWeb.png](/_posts/AttachedSidewalkWeb.png)
+![AttachedSidewalkWeb.png](/media/AttachedSidewalkWeb.png)
 
-![DetachedSidewalkWeb.png](/_posts/DetachedSidewalkWeb.png)
+![DetachedSidewalkWeb.png](/media/DetachedSidewalkWeb.png)
 
-![RolloverCurbWeb.png](/_posts/RolloverCurbWeb.png)
+![RolloverCurbWeb.png](/media/RolloverCurbWeb.png)
 
 **_Are there obstructions any problems with the sidewalk?_**
 
 An obstruction is anything that would prevent pedestrians from easily using the sidewalk. Examples might include trash or debris, overgrown plants, or utility poles. While you're at it, go ahead and tell us what the obstruction is in the description. A crack or uneven sidewalk is significant if it makes it unsafe or difficult for pedestrians. Ignore minor cracks or other abnormalities that don't affect sidewalk usage.
 
-![ObstructionsWeb.png](/_posts/ObstructionsWeb.png)
+![ObstructionsWeb.png](/media/ObstructionsWeb.png)
 
-![CrackedWeb.png](/_posts/CrackedWeb.png)
+![CrackedWeb.png](/media/CrackedWeb.png)
 
 **_Do you feel unsafe? (lighting, traffic, or other)_**
 
@@ -66,7 +66,7 @@ Safety is important, but often hard to quantify. Sometimes low lighting or fast-
 
 Shade trees, landscaping, benches, public art and other amenities make a nice, inviting place to walk.  Let us know in the description about the amenities you particularly like.
 
-![AmenitiesWeb.png](/_posts/AmenitiesWeb.png)
+![AmenitiesWeb.png](/media/AmenitiesWeb.png)
 
 
 ### **Intersection Quality**
@@ -79,7 +79,7 @@ Well-marked crosswalks increase visibility and contribute to pedestrian safety. 
 
 Count the number of lanes on the street with the most lanes. For instance, if one street had 4 lanes and the other had 7, the number of lanes recorded would be 7. You should also count turn lanes as lanes.
 
-![LanesWeb.png](/_posts/LanesWeb.png)
+![LanesWeb.png](/media/LanesWeb.png)
 
 **_Are there traffic controls?_**
 
@@ -89,9 +89,9 @@ Some, but not all traffic lights also have signals specifically for pedestrians.
 
 Bulb-outs are an extension of the curb that shorten crossing distances.  Median islands provide a safe place for pedestrians to wait part way across the street.  Accessible curb ramps make it easy for people in wheelchairs to cross the street.
 
-![BulboutWeb.png](/_posts/BulboutWeb.png)
+![BulboutWeb.png](/media/BulboutWeb.png)
 
-![MedianIslandWeb.png](/_posts/MedianIslandWeb.png)
+![MedianIslandWeb.png](/media/MedianIslandWeb.png)
 
 **_Are there problems with driver behavior?_**
 
