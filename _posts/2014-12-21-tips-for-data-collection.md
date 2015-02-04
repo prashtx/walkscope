@@ -77,13 +77,15 @@ Well-marked crosswalks increase visibility and contribute to pedestrian safety. 
 
 **_How many lanes are there to cross?_**
 
-Count the number of lanes on the street with the most lanes. For instance, if one street had 4 lanes and the other had 7, the number of lanes recorded would be 7. You should also count turn lanes as lanes.
+Count the number of lanes on the street with the most lanes. For instance, if one street had 4 lanes and the other had 7, the number of lanes recorded would be 7. You should lso count turn lanes as lanes.
 
 ![LanesWeb.png](/media/LanesWeb.png)
 
 **_Are there traffic controls?_**
 
 Some, but not all traffic lights also have signals specifically for pedestrians.  Some intersections may have pedestrian signals, but not traditional traffic lights.  Intersections with stop signs typically do not have traffic lights or pedestrian signals.
+
+![PedestrianSignalWeb.png](/_posts/PedestrianSignalWeb.png)
 
 **_Are there pedestrian amenities?_**
 
