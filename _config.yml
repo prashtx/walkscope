@@ -1,7 +1,7 @@
 permalink: pretty
 markdown: rdiscount
 prose:
-  rooturl: '_posts'
+  rooturl: '/'
   siteurl: 'http://hampelm.github.io/walkscope/'
   relativeLinks: 'http://hampelm.github.io/walkscope/links.jsonp'
   media: 'media'
